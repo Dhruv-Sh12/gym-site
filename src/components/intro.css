@@ -1,0 +1,205 @@
+.intro{
+    background-image: url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    height: 570px;
+    background-repeat:repeat;
+}
+.intro img{
+    width: 2000px;
+}
+.head{
+    color: yellow;
+    float: right;
+    margin-top: 10%;
+    font-size: 70px;
+    margin-right: 20px;
+    animation-name: styl;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+/* @keyframes styl{
+    0%{font-family: 'Times New Roman', Times, serif;}
+    50%{font-family: cursive;}
+    100%{font-family: 'Times New Roman', Times, serif; color: yellowgreen;}
+} */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.navbar a{
+   text-decoration: none;
+    margin-left: 10px;
+    margin-top: 20px; 
+    color: white; 
+    font-weight: bold;
+}
+.navbar  i:hover{
+    cursor: pointer;
+    color: red;
+}
+.navbar a:hover{
+    color: red;
+}
+.navbar i{
+    /* margin-top: 20px; */
+    color: white;
+}
+.s{
+    background-color: #002b3e;
+    color: white;
+    font-size: 20px;
+    word-wrap: break-word;
+    padding:20px 20px 20px 80px;
+    text-align: center;
+}
+.s p{
+    
+    width: 90%;
+}
+.reason{
+    display: flex;
+    flex-direction: row;
+    height: 482px;
+}
+.reason img{
+    width: 600px;
+
+}
+.points{
+    background-color: #8aa5d2;
+}
+.points h2{
+    padding-top: 70px;
+    font-size: 40px;
+    padding-left: 50px;
+    
+}
+.points li{
+    list-style: none;
+    font-size: 30px;
+    padding-left: 40px;
+}
+/* .image{
+    width: 40%;
+} */
+.revi{
+    display: grid;
+    gap: 20px 2px;
+    grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+    /* flex-direction: row; */
+    margin-top: 10px;
+   
+    
+    /* margin-left: 120px; */
+    
+  
+
+}
+.rev{
+   text-align: center; 
+   background-color: red;
+   padding-top: 5px;
+   padding-bottom: 20px;
+   font-size: small;
+   font-family: cursive;
+   /* color: yellow; */
+} 
+.cards:hover{
+    box-shadow: 10px 15px black;
+    transition-duration: 2s;
+    width: 305px;
+    height: 155px;
+    cursor: pointer;
+}
+
+.cards{
+    /* display: flex;
+    flex-direction: row; */
+    border-style: solid;
+    border-width: 2px;
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding:0px 10px 20px 10px;
+    font-size: 12px;
+    /* margin-left: 0px; */
+    background-color: white;
+    box-shadow: 5px 10px black;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+.logo i{
+    color: white;
+    margin-left: 250px;
+    margin-top: 50px;
+    animation-name: up;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.why{
+    margin-left: 30px;
+    width: 30%;
+    text-align: center;
+}
+.contact{
+    margin-left: 30px;
+    text-align: center;
+}
+.contact i{
+    margin-left: 10px;
+}
+.foot p:hover{
+    color: yellow;
+    cursor: pointer;
+}
+@keyframes up{
+    0%{transform: translateY(0px); color: white;}
+    25%{transform: translateY(15px); color: yellow;}
+    50%{transform: translateY(0px); color: white;}
+    75%{transform: translateY(-15px); color: yellow;}
+    100%{transform: translateY(0px); color: white;}
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    
+}
+.c img{
+    width: 150%;
+}
+.c p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.c p h2{
+    text-align: center;
+}
+.sig, .log{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-image: linear-gradient(blue, purple,red );
+    color: white;
+}
+.sig input, .log input{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 0px 0px 3px 0px;
+    text-align: center;
+}
+.sig label, .log label{
+    color: white;
+    
+}
+.sig a, .log a{
+    color: yellow;
+}
